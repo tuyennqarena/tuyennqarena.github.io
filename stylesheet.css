@@ -2027,14 +2027,14 @@ transition: 0.4s;
     content: "";
     position: absolute;
     top: 32%;
-    left: -5%;
+    left: -2%;
     width: 1px;
     height: 70%;
     background: #e5e5e5;
 }
 
 .footer .text:after {
-    right: -5%;
+    right: 3%;
     left: auto;
 }
 
@@ -3524,8 +3524,8 @@ table tr:last-child td:nth-child(2) {
  /* end css for section3 */
 /* css for section5 */
 .section5 .col-lg-3.col-sm-6 {
-    max-width: 100%;
-    flex: 100%;
+    max-width: 93%;
+    flex: 93%;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -3645,6 +3645,10 @@ table tr:last-child td:nth-child(2) {
   max-width: 100%;
   flex: 100%;
   text-align: left !important;
+}
+
+.footer .text:after,.footer .text:before {
+    visibility: hidden;
 }
 /* end css for footer */
 /* css for shop */
