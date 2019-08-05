@@ -1,0 +1,1212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>Q-Burger</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="plugin/animate.css">
+	<script type="text/javascript" src="plugin/imagesloaded.pkgd.min.js"></script>
+  </head>
+  <body>
+	<div class="bg-header fixed-top">
+		<div class="header container">
+			<div class="row">
+				<div class="col-lg-2 ">
+					<a href="index.html"><img class="img-fluid logo" src="images/logo.png" alt=""></a>
+				</div><!--endcol--->
+				<div class="col-lg-7 text-center">
+					<nav class="navbar navbar-expand-sm navbar-light bg-light">
+						<div class="collapse navbar-collapse" id="collapsibleNavId">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link active" href="#">HOME</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="shop.html">SHOP</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="reservation.html">RESERVATION</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="blog.html">BLOG</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">GALLERY</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">About</a>
+								</li>
+							</ul>
+						</div>
+					</nav><!--endnavbar-->
+				</div><!--endcol--->
+				<div class="col-lg-3 flex-row-reverse">
+					<div class="icon float-right d-flex">
+						<a href="#" class="fa fa-search rounded-circle"></a>
+						<div class="login name">
+							<a href="#"  class="fa fa-user rounded-circle clickavt"><span>Account</span></a>
+							<div class="bigform ">
+								<div class="top">
+									<h2 class="cr1 fs4 d-inline-block">Sign in</h2>
+									<span class="float-right fs5 cr4">Create an account</span>
+									<hr>
+								</div><!--endtop-->
+								<form action="">
+									<div class="form-group">
+										<label class="d-block" for="">Username or email</label>
+										<input type="email" name="" id="" placeholder="Username">
+									</div><!--endform-group-->
+									<div class="form-group  hidden">
+										<label class="d-block" for="">Phone number</label>	
+										<input type="email" name="" id="" placeholder="Phone number">
+									</div><!--endform-group-->
+									<div class="form-group">
+										<label class="d-block" for="">Password</label>
+										<input type="password" name="" id="" placeholder="Password">
+									</div><!--endform-group-->
+									<div class="form-group hidden">
+										<label class="d-block" for="">Re-Enter Password</label>
+										<input type="password" name="" id="" placeholder="Password">
+									</div><!--endform-group-->
+									<div class="button d-block text-center">
+										<a href="#" class="btn btn-food">Login</a>
+										<a href="#" class="btn btn-food">Sign up</a>
+									</div><!--endbutton-->
+									<a href="#" class="fs5 cr3 d-block">Forgot your password ?</a>
+								</form><!--endform-->
+							</div><!--endbigform-->
+						</div><!--endlogin-->
+						<div class="logout">
+								<div class="avatar d-flex ">
+									<div class="image">
+										<img src="images/avt.jpg" alt="">
+									</div><!--endimage-->
+									<p class="fs5 cr3 font-weight-bold float-right">Junny Limar</p>
+								</div><!--endavatar-->
+								<ul class="profile">
+									<li><a class="fs5 cr3 underline d-inline-block" href="#">Order</a></li>
+									<li><a href="#"  class="fs5 cr3 underline d-inline-block" href="#">Favourite</a></li>
+									<li><a class="fs5 cr3 underline d-inline-block" href="#">History</a></li>
+									<li><a class="fs5 cr3 underline d-inline-block" href="#">Address</a></li>
+									<li><a class="fs5 cr3 underline d-inline-block" href="#">Settings</a></li>
+									<li><a class="fs5 cr3 underline d-inline-block out " href="#">Logout</a></li>
+								</ul><!--endprofile-->
+							</div><!--endlogout-->
+						<div class="loginsuccess text-center">
+							<p class="fs3 cr3 _1">Login successful!</p>
+							<p class="fs3 cr3 _2">Sign up successful!</p>
+							<i class="fa fa-check-circle"></i>
+						</div><!--endloginsucccess-->
+						<div class="view">
+							<a href="#" class="fa fa-cart-plus rounded-circle"><span>My Cart</span></a>
+						</div><!--endview-->
+					</div><!--endicon-->
+				</div><!--endcol--->
+			</div><!--endrow-->
+		</div><!--endheader-->
+	</div><!--endbg-header-->
+	<div id="sliderbanner" class="carousel slide" data-ride="carousel" data-interval="2000">
+		<ol class="carousel-indicators">
+			<li data-target="#sliderbanner" data-slide-to="0" class="active"></li>
+			<li data-target="#sliderbanner" data-slide-to="1"></li>
+			<li data-target="#sliderbanner" data-slide-to="2"></li>
+			<li data-target="#sliderbanner" data-slide-to="3"></li>
+			<li data-target="#sliderbanner" data-slide-to="4"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<img class="img-fluid" src="images/banner_1.png" alt="">
+			</div><!--endcarousel-tem-->
+			<div class="carousel-item">
+				<img class="img-fluid" src="images/banner_2.png" alt="">
+			</div><!--endcarousel-tem-->
+			<div class="carousel-item">
+				<img class="img-fluid" src="images/banner_3.png" alt="">
+			</div><!--endcarousel-tem-->
+			<div class="carousel-item">
+				<img class="img-fluid" src="images/banner_4.png" alt="">
+			</div><!--endcarousel-tem-->
+			<div class="carousel-item">
+				<img class="img-fluid" src="images/banner_5.png" alt="">
+			</div><!--endcarousel-tem-->
+		</div><!--endcarousel-inner-->
+		<a class="carousel-control-prev fa fa-angle-left" href="#sliderbanner" role="button" data-slide="prev">
+		</a>
+		<a class="carousel-control-next  fa fa-angle-right" href="#sliderbanner" role="button" data-slide="next">
+		</a>
+	</div><!--endsliderbanner-->
+	<div class="section1" >
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-sm-3 mx-auto">
+					<div class="outline rounded-circle">
+						<img class="img-fluid" src="images/icon_1.png" alt="">
+					</div>
+					<h3 class="fs3 cr3 underline d-inline-block">Choose</h3>
+					<p class="fs4 cr4">Browse hundreds of menus to <br>find  the food you like</p>
+				</div><!--endcol-->
+				<div class="col-sm-3 mx-auto">
+					<img style="width:100px;"  src="images/icon_2.png" alt="" class="img-fluid d-block mx-auto">
+					<h3 class="fs3 cr3 underline d-inline-block">Pay</h3>
+					<p class="fs4 cr4">Pay fast & secure online or <br> on delivery</p>
+				</div><!--endcol-->
+				<div class="col-sm-3 mx-auto">
+					<img class="img-fluid d-block mx-auto" src="images/icon_3.png"  alt="">
+					<h3 class="fs3 cr3 underline d-inline-block">Enjoy</h3>
+					<p class="fs4 cr4">Food is prepared & delivered<br> to  your door</p>
+				</div><!--endcol-->
+			</div><!--endrow-->
+		</div><!--endcontainer-->
+	</div><!--endsection-->
+	<div class="section2 ">
+		<h2 class="cr1 fs1 text-center mx-food">Top of this week</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6  bd">
+					<div class="row">
+						<div class="col-6">
+							<div class="image">
+								<img class="img-fluid" src="images/product_15.png" alt="">
+							</div><!--endimage-->
+							<div class="center">
+								<div class="button">
+									<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+								</div><!--endbutton-->
+							</div><!--endcenter-->
+						</div><!--endrow-->
+						<div class="col-6">
+							<a href="#" class="fs3 cr3 underline d-inline-block">Chicken Burger</a>
+							<p class="fs5 cr4">Chicken, tommato, green salad, pita, ketchup, maionese, ….</p>
+							<p class="fs4 cr1">$ 2.35–$ 5.55</p>
+							<div class="icon">
+								<a href="#" class="fa fa-eye rounded-circle"></a>
+								<i class="fa fa-heart  rounded-circle"></i>
+								<i class="fa fa-share-alt  rounded-circle"></i>
+							</div><!--endicon-->
+						</div><!--endcol-->
+					</div><!--endrow-->
+				</div><!--endcol-->
+				<div class="col-lg-6 bd">
+					<div class="row">
+						<div class="col-6">
+							<div class="image">
+								<img class="img-fluid" src="images/product_12.png" alt="">
+							</div><!--endimage-->
+							<div class="center">
+								<div class="button">
+									<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+								</div><!--endbutton-->
+							</div><!--endcenter-->
+						</div><!--endrow-->
+						<div class="col-6">
+							<a href="#" class="fs3 cr3 underline d-inline-block">Hawaii Pizza</a>
+							<p class="fs5 cr4">Tommato, green salad, pita, ketchup, maionese, ….</p>
+							<p class="fs4 cr1">$ 4.5–$ 6.5</p>
+							<div class="icon">
+								<a href="shop.html" class="fa fa-eye rounded-circle"></a>
+								<i class="fa fa-heart  rounded-circle"></i>
+								<i class="fa fa-share-alt  rounded-circle"></i>
+							</div><!--endicon-->
+						</div><!--endcol-->
+					</div><!--endrow-->
+				</div><!--endcol-->
+				<div class="col-lg-6  bd">
+					<div class="row">
+						<div class="col-6">
+							<div class="image">
+								<img class="img-fluid" src="images/product_13.png" alt="">
+							</div><!--endimage-->
+							<div class="center">
+								<div class="button">
+									<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+								</div><!--endbutton-->
+							</div><!--endcenter-->
+						</div><!--endrow-->
+						<div class="col-6">
+							<a href="#" class="fs3 cr3 underline d-inline-block">Seafood Pizza</a>
+							<p class="fs5 cr4">Beef, tommato, green salad, pita, ketchup, maionese, ….</p>
+							<p class="fs4 cr1">$ 4.35–$ 7.55</p>
+							<div class="icon">
+								<a href="shop.html" class="fa fa-eye rounded-circle"></a>
+								<i class="fa fa-heart  rounded-circle"></i>
+								<i class="fa fa-share-alt  rounded-circle"></i>
+							</div><!--endicon-->
+						</div><!--endcol-->
+					</div><!--endrow-->
+				</div><!--endcol-->
+				<div class="col-lg-6   bd">
+					<div class="row">
+						<div class="col-6">
+							<div class="image">
+								<img class="img-fluid" src="images/product_14.png" alt="">
+							</div><!--endimage-->
+							<div class="center">
+								<div class="button">
+									<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+								</div><!--endbutton-->
+							</div><!--endcenter-->
+						</div><!--endrow-->
+						<div class="col-6">
+							<a href="shop.html"  class="fs3 cr3 underline d-inline-block">Beef burger</a>
+							<p class="fs5 cr4">Beef, tommato, green salad, pita, ketchup, maionese, ….</p>
+							<p class="fs4 cr1">$ 3.35–$ 6.55</p>
+							<div class="icon">
+								<a href="shop.html" class="fa fa-eye rounded-circle"></a>
+								<i class="fa fa-heart  rounded-circle"></i>
+								<i class="fa fa-share-alt  rounded-circle"></i>
+							</div><!--endicon-->
+						</div><!--endcol-->
+					</div><!--endrow-->
+				</div><!--endcol-->
+			</div><!--endrow-->
+		</div><!--endcontainer-->
+	</div><!--endsection-->
+	<div class="viewdetail">
+		<i class="fa fa-remove"></i>
+		<div class="buynow">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="row big-product">
+							<div class="col-12">
+							   <div class="image">
+								<img class="pr1" src="images/product_13.png" alt="">
+							   </div><!--endimage-->
+							</div><!--endcol-->
+						</div><!--endbigrow-->
+					</div><!--endcol-->
+					<div class="col-lg-6">
+						<div class="nameproduct">
+							<a href="#" class="fs1 cr3">Chicken Pizza</a>
+							<p class="fs5 cr3">Chicken, tommato, green salad, pita, ketchup, maionese, ….</p>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+								<span class="fs4 cr4">(10 customer review)</span>
+							</div><!--endrating-->
+							<p class="fs2 cr1 font-weight-bold"><del class=" cr4">$10</del>$ 5</p>
+							<div class="size">
+								<h3 class="fs3 cr3 d-inline-block">Size</h3>
+								<a href="#" class="optionsize rounded-circle">A</a>
+								<a href="#" class="optionsize rounded-circle">B</a>
+								<a href="#" class="optionsize rounded-circle">C</a>
+								<a href="#" class="optionsize rounded-circle">D</a>
+							</div><!--endsize-->
+							<div class="row">
+								<div class="col-4">
+									<div class="number">
+										<p class="cr4 fs3 fa fa-minus"></p>
+										<p class="_1 cr4 fs2">1</p>
+										<p class="_2 cr4 fs2">2</p>
+										<p class="_3 cr4 fs3">3</p>
+										<p class="cr1 fs3 fa fa-plus"></p>
+									</div><!--endnumber-->
+								</div><!--endcol-->
+								<div class="col-4">
+									<div class="button">
+										<a href="#" class="btn btn-food">Add to cart</a>
+									</div>
+								</div><!--endcol-->
+								<div class="col-4">
+									<p><i class="fa fa-heart-o"></i>Add to wishlist</p>
+								</div><!--endcol-->
+							</div><!--endnameproduct-->
+							<div class="category">
+								<h2 class="fs5 cr3">SKU: <span> N/A</span></h2>
+								<h2 class="fs5 cr3">CATEGORIES:<span> DRINKS, FAST FOOD, FRIES, MOST POPULAR, PIZZA, SALADS, SANDWICH, SPAGHETTI</span></h2>
+								<h2 class="fs5 cr3">TAGS:<span> PIZZAS</span></h2>
+							</div><!--endcaegory-->
+						</div><!--endrow-->
+					</div><!--endcol-->
+				</div><!--enrow-->
+			</div><!--endcontainer-->
+		</div><!--endbuynow-->
+	</div><!--endviewdetails-->
+	<div class="section3">
+			<div class="bg-product">
+				<div class="container product">
+					<div class="row">
+						<div id="sliderproduct" class="carousel carousel-product slide " data-ride="carousel" data-interval="20000000">
+							<ol class="carousel-indicators">
+								<li data-target="#sliderproduct" data-slide-to="0" class="active"></li>
+								<li data-target="#sliderproduct" data-slide-to="1"></li>
+								<li data-target="#sliderproduct" data-slide-to="2"></li>
+							</ol>
+								<div class="carousel-inner" role="listbox">
+									<div class="carousel-item active">
+										<div class="container text-center">
+											<div class="row">
+												<div class="col-sm-6 image">
+												<div class="item">
+													<h1 class="fs1 cr1">Today Deal</h1>
+													<div class="image"><img class="img-fluid" src="images/product_13.png" alt=""></div>
+													<div class="bigrating">
+														<div class="rating">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+															<p class="fs1 cr1 font-weight-bold"><del class=" cr4">$ 10</del>  $ 5</p>
+														</div><!--end-->
+													</div><!--endbigrating-->
+												</div><!--end	item-->
+											</div><!--endcol-->
+											<div class="col-sm-6">
+												<div class="top d-flex justify-content-center">
+													<a href="#"><b>2</b>days</a>
+													<a href="#"><b>20</b>hours</a>
+													<a href="#"><b>15</b>min</a>
+													<a href="#"><b>2</b>sec</a>
+												</div><!--endtop-->
+												<div class="details">
+													<h2 class="cr3  underline d-inline-block">Seafood Pizza</h2>
+													<p class="cr4">Beef, tommato, green salad,pita,<br> ketchup, maionese, ….</p>
+												<div class="rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+												</div><!--endrating-->
+												<p class="cr1">$ 3.55-$ 5.55</s></p>
+												<div class="button">
+													<a href="#" class="btn btn-food Add">add to cart</a>
+												</div>
+											</div><!--enddetails-->
+										</div><!--endcol-->
+									</div><!--endrow-->
+							</div><!--endcontainer-->
+						</div><!--endcarousel-item-->
+						<div class="carousel-item">
+										<div class="container text-center">
+											<div class="row">
+												<div class="col-sm-6 image">
+												<div class="item">
+													<h1 class="fs1 cr1">Today Deal</h1>
+													<div class="image"><img class="img-fluid" src="images/product_14.png" alt=""></div>
+													<div class="bigrating">
+														<div class="rating">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+															<p class="fs1 cr1 font-weight-bold"><del class=" cr4">$ 10</del>  $ 5</p>
+														</div><!--end-->
+													</div><!--endbigrating-->
+												</div><!--end	item-->
+											</div><!--endcol-->
+											<div class="col-sm-6">
+												<div class="top d-flex justify-content-center">
+													<a href="#"><b>2</b>days</a>
+													<a href="#"><b>20</b>hours</a>
+													<a href="#"><b>15</b>min</a>
+													<a href="#"><b>2</b>sec</a>
+												</div><!--endtop-->
+												<div class="details">
+													<h2 class="cr3  underline d-inline-block">Beef Burger</h2>
+													<p class="cr4">Beef, tommato, green salad,pita,<br> ketchup, maionese, ….</p>
+												<div class="rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+												</div><!--endrating-->
+													<p class="cr1">$ 2.55-$ 8.55</s></p>
+												<div class="button">
+													<a href="shop.html" class="btn btn-food Add">add to cart</a>
+												</div>
+											</div><!--enddetails-->
+										</div><!--endcol-->
+									</div><!--endrow-->
+							</div><!--endcontainer-->
+						</div><!--endcarousel-item-->
+						<div class="carousel-item">
+										<div class="container text-center">
+											<div class="row">
+												<div class="col-sm-6 image">
+												<div class="item">
+													<h1 class="fs1 cr1">Today Deal</h1>
+													<div class="image"><img class="img-fluid" src="images/product_12.png" alt=""></div>
+													<div class="bigrating">
+														<div class="rating">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+															<p class="fs1 cr1 font-weight-bold"><del class=" cr4">$ 10</del>$ 5</p>
+														</div><!--end-->
+													</div><!--endbigrating-->
+												</div><!--end	item-->
+											</div><!--endcol-->
+											<div class="col-sm-6">
+												<div class="top d-flex justify-content-center">
+													<a href="#"><b>2</b>days</a>
+													<a href="#"><b>20</b>hours</a>
+													<a href="#"><b>15</b>min</a>
+													<a href="#"><b>2</b>sec</a>
+												</div><!--endtop-->
+												<div class="details">
+													<h2 class="cr3  underline d-inline-block">Hawaii Pizza</h2>
+													<p class="cr4">Beef, tommato, green salad,pita,<br> ketchup, maionese, ….</p>
+												<div class="rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+												</div><!--endrating-->
+													<p class="cr1">$ 4.55-$6.55</s></p>
+												<div class="button">
+													<a href="shop.html" class="btn btn-food Add">add to cart</a>
+												</div>
+											</div><!--enddetails-->
+										</div><!--endcol-->
+									</div><!--endrow-->
+							</div><!--endcontainer-->
+						</div><!--endcarousel-item-->
+					</div><!--endcarousel-inner-->
+						<a class="carousel-control-prev fa fa-angle-left" href="#sliderproduct" role="button" data-slide="prev">
+						</a>
+						<a class="carousel-control-next fa fa-angle-right" href="#sliderproduct" role="button" data-slide="next">
+						</a>
+					</div><!--endslidesliderproduct-->
+				</div><!--endrow-->
+			</div><!--endcontainer-->
+		</div><!--endbg-product-->
+	</div><!--endsection-->
+	<div class="section4 animation">
+		<div class="bg">
+			<div class="text">
+				<div class="title">
+					<h1 class="fs1 cr2">Q-Burger</h1>
+				</div><!--endttile-->
+				<h2 class="fs3 cr2">the best food for you</h1>
+				<div class="paragrap">
+					<p class="fs4 cr2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam temporibus fugiat reiciendis tempora a commodi culpa quas. Reiciendis nam temporibus fugiat quos facilis ipsa distinctio.</p>
+				</div><!--endparagrap-->
+				<div class="button">
+					<a href="#" class="btn btn-food">Download Now</a>
+				</div><!--endbutton-->
+			</div><!--endtext-->
+		</div><!--endbg-->
+	</div><!--endsection4-->
+	<div class="section5 container text-center">
+		<div class="titleproduct text-center mx-food">
+			<a href="#" class="cr3 fs1  underline d-inline-block active">Burger<i class="fa fa-angle-double-right"></i></a>
+			<a href="#" class="cr3 fs1  underline d-inline-block ">Pizza<i class="fa fa-angle-double-right"></i></a>
+			<a href="#" class="cr3 fs1  underline d-inline-block">Drinks</a>
+		</div><!--endtitleproduct-->
+		<div class="row burger">
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="images/product_14.png" alt="">
+					<div class="icon">
+						<a href="#" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+					<div class="center">
+						<div class="button">
+							<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+						</div><!--endbutton-->
+					</div><!--endcenter-->
+				<div class="rating">
+					<a class="fs3 cr3 underline d-inline-block">Beef Burger</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$2.5</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="images/product_15.png" alt="">
+					<div class="icon">
+						<a href="shop.html" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+				<div class="center">
+					<div class="button">
+						<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+					</div><!--endbutton-->
+				</div><!--endcenter-->
+				<div class="rating">
+					<a href="#" class="fs3 cr3 underline  d-inline-block">Shirmp Burger</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$4.35</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="images/product_17.png" alt="">
+					<div class="icon">
+						<a href="shop.html" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+				<div class="center">
+					<div class="button">
+						<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+					</div><!--endbutton-->
+				</div><!--endcenter-->
+				<div class="rating">
+					<a href="#" class="fs3 cr3 underline  d-inline-block">Chicken Burger</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$3.35</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="images/product_14.png" alt="">
+					<div class="icon">
+						<a href="shop.html" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+				<div class="center">
+					<div class="button">
+						<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+					</div><!--endbutton-->
+				</div><!--endcenter-->
+				<div class="rating">
+					<a href="#" class="fs3 cr3 underline d-inline-block">Beef Burger</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$2.35</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+		</div><!--endrowburger-->
+		<div class="row pizza">
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="https://images.unsplash.com/photo-1558138838-6f561719b0ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+					<div class="icon">
+						<a href="#" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+					<div class="center">
+						<div class="button">
+							<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+						</div><!--endbutton-->
+					</div><!--endcenter-->
+				<div class="rating">
+					<a class="fs3 cr3 underline d-inline-block">Beef Burger</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$2.5</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+					<div class="icon">
+						<a href="shop.html" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+				<div class="center">
+					<div class="button">
+						<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+					</div><!--endbutton-->
+				</div><!--endcenter-->
+				<div class="rating">
+					<a href="#" class="fs3 cr3 underline  d-inline-block">Shirmp Burger</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$4.35</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="">
+					<div class="icon">
+						<a href="shop.html" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+				<div class="center">
+					<div class="button">
+						<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+					</div><!--endbutton-->
+				</div><!--endcenter-->
+				<div class="rating">
+					<a href="#" class="fs3 cr3 underline  d-inline-block">Chicken Burger</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$3.35</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="https://images.pexels.com/photos/2249/vegetables-italian-pizza-restaurant.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+					<div class="icon">
+						<a href="shop.html" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+				<div class="center">
+					<div class="button">
+						<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+					</div><!--endbutton-->
+				</div><!--endcenter-->
+				<div class="rating">
+					<a href="#" class="fs3 cr3 underline d-inline-block">Beef Burger</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$2.35</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+		</div><!--endrowburger-->
+		<div class="row drinks">
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="images/drinks_1.png" alt="">
+					<div class="icon">
+						<a href="#" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+					<div class="center">
+						<div class="button">
+							<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+						</div><!--endbutton-->
+					</div><!--endcenter-->
+				<div class="rating">
+					<a class="fs3 cr3 underline d-inline-block">7 Up Drinks</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$2.5</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="images/drinks_3.png" alt="">
+					<div class="icon">
+						<a href="shop.html" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+				<div class="center">
+					<div class="button">
+						<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+					</div><!--endbutton-->
+				</div><!--endcenter-->
+				<div class="rating">
+					<a href="#" class="fs3 cr3 underline  d-inline-block">Coca Drniks</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$4.35</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="images/drinks_2.png" alt="">
+					<div class="icon">
+						<a href="shop.html" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+				<div class="center">
+					<div class="button">
+						<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+					</div><!--endbutton-->
+				</div><!--endcenter-->
+				<div class="rating">
+					<a href="#" class="fs3 cr3 underline  d-inline-block">Sprite Drinks</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$3.35</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+			<div class="col-lg-3 col-sm-6">
+				<div class="image"><img class="img-fluid" src="images/drinks_4.png" alt="">
+					<div class="icon">
+						<a href="shop.html" class="fa fa-eye"></a>
+						<i class="fa fa-heart"></i>
+						<i class="fa fa-share-alt"></i>
+					</div><!--endicon-->
+				</div><!--endimage-->
+				<div class="center">
+					<div class="button">
+						<a href="shop.html" class="btn btn-food Add">Add to cart</a>
+					</div><!--endbutton-->
+				</div><!--endcenter-->
+				<div class="rating">
+					<a href="#" class="fs3 cr3 underline d-inline-block">Fanta Drinks</a>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+					</div>
+					<p class="fs3 cr1">$2.35</p>
+				</div><!--endrating-->
+			</div><!--endcol-->
+		</div><!--endrowdrinks-->
+	</div><!--endsection-->
+	<div class="section6 text-center">
+		<h2 class="cr1 fs1 mx-food text-center">Meet our people</h2>
+		<p class="fs3 cr5">Our Talented Chefs</p>
+		<div class="container px-0">
+			<div class="row">
+				<div class="col-sm-6 col-lg-3">
+					<div class="image">
+						<img class="img-fluid"  src="images/chef_1.png" alt="">
+					</div>
+					<h3 class="fs4 cr4 underline d-inline-block">William Smith</h3>
+					<p class="fs5 cr5">Chef</p>
+				</div><!--endcol-->
+				<div class="col-sm-6 col-lg-3">
+					<div class="image">
+						<img class="img-fluid"  src="images/chef_2.png" alt="">
+					</div>
+					<h3 class="fs4 cr4 underline d-inline-block">John Smith</h3>
+					<p class="fs5 cr5">Manager</p>
+				</div><!--endcol-->
+				<div class="col-sm-6 col-lg-3">
+					<div class="image">
+						<img class="img-fluid"  src="images/chef_3.png" alt="">
+					</div>
+					<h3 class="fs4 cr4 underline d-inline-block">Emma S</h3>
+					<p class="fs5 cr5">Chef</p>
+				</div><!--endcol-->
+				<div class="col-sm-6 col-lg-3">
+					<div class="image">
+						<img class="img-fluid"  src="images/chef_4.png" alt="">
+					</div>
+					<h3 class="fs4 cr4 underline d-inline-block">Joergen Jr</h3>
+					<p class="fs5 cr5">Manager</p>
+				</div><!--endcol-->
+			</div><!--endrow-->
+		</div><!--endcontainer-->
+	</div><!--endsection-->
+	<div class="section7 text-center mb-5 ">
+		<h2 class="cr1 fs1 text-center mx-food ">Review</h2>
+		<p class="fs4 cr5">testimonials</p>
+		<div class="container  px-0">
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="reviewslider" class="carousel slide" data-ride="carousel" data-interval="2000">
+						<ol class="carousel-indicators">
+							<li data-target="#reviewslider" data-slide-to="0" class="active"></li>
+							<li data-target="#reviewslider" data-slide-to="1"></li>
+						</ol>
+						<div class="carousel-inner" role="listbox">
+							<div class="carousel-item active">
+								<div class="container">
+									<div class="row justify-content-between">
+										<div class="col-sm-6 ">
+											<h2 class="fs4 cr3">Delicius burger</h2>
+											<p class="fs5 cr4">Serving here is great! I will come back <br> here the nearest day</p>
+											<div class="avt">
+												<img class="img-fluid" src="images/man_1.png" alt="">
+												<i class="fa fa-quote-left"></i>
+											</div><!--endavt-->
+											<div class="rating">
+												<h2 class="fs5 cr3">Michel Athen</h2>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class=""><img class="img-fluid"  src="images/icons8-star-26.png" alt=""></i>
+											</div><!--endrating-->
+										</div><!--endcol-->
+										<div class="col-sm-6">
+											<h2 class="fs4 cr3">Aweasome Pizza</h2>
+											<p class="fs5 cr4">Food is great! I will not forget <br> its taste, thank you
+											   </p>
+											<div class="avt">
+												<img class="img-fluid" src="images/man_2.png" alt="">
+												<i class="fa fa-quote-right"></i>
+											</div><!--endavt-->
+											<div class="rating">
+												<h2 class="fs5 cr3">John Smith</h2>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class=""><img class="img-fluid" class="img-fluid" src="images/icons8-star-26.png" alt=""></i>
+											</div><!--endrating-->
+										</div><!--endcol-->
+									</div><!--endrow-->
+								</div><!--endcontainer-->
+							</div><!--endcarousel-item-->
+							<div class="carousel-item">
+								<div class="container">
+									<div class="row  justify-content-between">
+										<div class="col-sm-6">
+											<h2 class="fs4 cr3">Aweasome Pizza</h2>
+											<p class="fs5 cr4">Food is great! I will not forget <br> its taste, thank you
+											   </p>
+											<div class="avt">
+												<img class="img-fluid" src="images/man_2.png" alt="">
+												<i class="fa fa-quote-right"></i>
+											</div><!--endavt-->
+											<div class="rating">
+												<h2 class="fs5 cr3">John Smith</h2>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class=""><img class="img-fluid" class="img-fluid" src="images/icons8-star-26.png" alt=""></i>
+											</div><!--endrating-->
+										</div><!--endcol-->
+										<div class="col-sm-6">
+											<h2 class="fs4 cr3">Very good service!</h2>
+											<p class="fs5 cr4">I hope to eat it daily, hourly! <br> Very great thank you
+											   </p>
+											<div class="avt">
+												<img class="img-fluid" src="images/girl_1.png" alt="">
+												<i class="fa fa-quote-right"></i>
+											</div><!--endavt-->
+											<div class="rating">
+												<h2 class="fs5 cr3">Junny Limar</h2>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class=""><img class="img-fluid" class="img-fluid" src="images/icons8-star-26.png" alt=""></i>
+											</div><!--endrating-->
+										</div><!--endcol-->
+									</div><!--endrow-->
+								</div><!--endcontainer-->
+							</div><!--endcarousel-item-->
+						</div><!--endcarousel-inner-->
+					</div><!--endreviewproduct-->
+				</div><!--endcol-->
+			</div><!--endrow-->
+		</div><!--endcontainer-->
+	</div><!--endsection-->
+	<div class="bg-5 animation">
+		<div class="bg">
+			<div class="text">
+				<div class="title">
+					<h1 class="fs1 cr2">Q-Burger</h1>
+				</div><!--endttile-->
+				<h2 class="fs3 cr2">the best food for you</h1>
+				<div class="paragrap">
+					<p class="fs4 cr2">Lorem ipsum dolor sit amet  temporibus fugiat consectetur adipisicing elit. Nam reiciendis tempora a commodi culpa quas. Reiciendis nam temporibus fugiat quos facilis ipsa distinctio.</p>
+				</div><!--endparagrap-->
+				<div class="button">
+					<a href="#" class="btn btn-food">Download Now</a>
+				</div><!--endbutton-->
+			</div><!--endtext-->
+		</div><!--endbg-->
+	</div>
+	<div class="section8 mb-5 ">
+		<div class="title text-center mx-food">
+			<a href="blog.html" class="cr1 fs1 ">Blog</a>
+			<p class="fs4 cr5">All about proper nutrition</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<a href="moreblog.html">
+					<div class="col-sm-6">
+						<div class="image">
+							<img class="img-fluid" src="images/product_11.jpg" alt="">
+						</div><!--endimage-->
+						<h5 class="fs6 cr1">Food</h5>
+						<h2 class="fs2 cr3">How people refrain from snacking on tempting foods</h2>
+						<p class="fs6 cr5"><span>by </span><span class="cr1">admin /</span><span class="font-bold"> on  july 22, 2019</span></p>
+						<p class="cr3 fs4">It’s happened to most of us – we walk past a restaurant,cafe or bakery and something catches our attention.A delicious...</p>
+						<a href="moreblog.html" class="fs6 cr3 d-inline-block underline">READMORE...</a>
+					</div><!--endcol-->
+				</a>
+				<a href="moreblog.html">
+					<div class="col-sm-6">
+						<div class="image">
+							<img class="img-fluid" src="images/product_10.jpg" alt="">
+						</div><!--endimage-->
+						<h5 class="fs6 cr1">Food</h5>
+						<h2 class="fs2 cr3">How people refrain from snacking on tempting foods</h2>
+						<p class="fs6 cr5"><span>by </span><span class="cr1">admin /</span><span class="font-bold"> on  july 22, 2019</span></p>
+						<p class="cr3 fs4">It’s happened to most of us – we walk past a restaurant,cafe or bakery and something catches our attention.A delicious...</p>
+						<a href="moreblog.html" class="fs6 cr3 d-inline-block underline">READMORE...</a>
+					</div><!--endcol-->
+				</a>
+			</div><!--endrow-->
+		</div><!--endcontainer-->
+	</div><!--endsection-->
+	<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="800" id="gmap_canvas" src="https://maps.google.com/maps?q=264%20%C4%90%E1%BB%99i%20C%E1%BA%A5n%20Ba%20%C4%90%C3%ACnh%20H%C3%A0%20N%E1%BB%99i&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:800px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:800px;width:100%;}</style></div>
+	<div class="section10">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h1 class="fs1 cr1">SUBSRIBE TO NEWLETTERS</h1>
+					<p class="fs5 cr1">Don't miss any of upcoming events</p>
+				</div><!--endcol-->
+				<div class="col-sm-6">
+					<form class="d-flex" action="">
+						<input type="email" name="" id="" placeholder="Enter your email">
+						<div class="button"><a href="#" class="btn btn-food">Subcribe</a></div>
+					</form><!--enform-->
+				</div><!--endcol-->
+			</div><!--endrow-->
+		</div><!--endcontainer-->
+	</div><!--endsection-->
+	<div class="section11"><hr></div><!--endsection10-->
+	<div class="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4  col-4">
+					<h2 class="fs3 cr1">USEFUL LINKS</h2>
+					<div class="row">
+						<div class="col-sm-4">
+							<ul>
+								<li><a class="fs5 cr4" href="#">Blog</a></li>
+								<li><a class="fs5 cr4" href="#">FAQS</a></li>
+								<li><a class="fs5 cr4" href="#">About</a></li>
+								<li><a class="fs5 cr4" href="#">Contact Us</a></li>
+							</ul>
+						</div><!--endcol-->
+						<div class="col-sm-8">
+							<ul>
+								<li><a class="fs5 cr4" href="#">Wishlist</a></li>
+								<li><a class="fs5 cr4" href="#">Privacy Policy</a></li>
+								<li><a class="fs5 cr4" href="#">Order Tracking</a></li>
+								<li><a class="fs5 cr4" href="#">Sevices</a></li>
+							</ul>
+						</div><!--endcol-->
+					</div><!--endrow-->
+				</div><!--endcol-->
+				<div class="col-lg-4  col-4 text-center">
+					<div class="text">
+						<h2 class="fs3 cr1">contact</h2>
+						<p class="fs5 cr4">264 Doi Can Str, Ba Dinh Dist, <br> Lieu Giai Ward, Hanoi</p>
+						<p class="fs5 cr4">Hotline: 1900 – 123 456 78</p>
+						<p class="fs5 cr4">Email: ndd@example.com</p>
+					</div><!--endtext-->
+					<div class="icon d-flex justify-content-center">
+						<a href="#" class="block-icon rounded-circle text-center fb">
+							<i class="fa fa-facebook d-block"></i>
+							<i class="fa fa-facebook  cr1"></i>
+						</a>
+						<a href="#" class="block-icon rounded-circle text-center it">
+							<i class="fa fa-instagram d-block "></i>
+							<i class="fa fa-instagram cr1"></i>
+						</a>
+						<a href="#" class="block-icon rounded-circle text-center gg ">
+							<i class="fa fa-google-plus d-block "></i>
+							<i class="fa fa-google-plus  cr1"></i>
+						</a>
+						<a href="#" class="block-icon rounded-circle tt">
+							<i class="fa fa-twitter d-block "></i>
+							<i class="fa fa-twitter  cr1"></i>
+						</a>
+					</div><!--endicon-->
+				</div><!--endcol-->
+				<div class="col-lg-4 col-4 ">
+					<h2 class="fs3 cr1">OPENING HOUR</h2>
+					<div class="row bd-left">
+						<div class="col-sm-7 col-2">
+							<ul>
+								<li><a class="fs5 cr4" href="#">Friday:</a></li>
+								<li><a class="fs5 cr4" href="#">Saturday:</a></li>
+								<li><a class="fs5 cr4" href="#">Sunday:</a></li>
+							</ul>
+						</div><!--endcol-->
+						<div class="col-sm-5 col-9">
+							<ul>
+								<li><a class="fs5 cr4" href="#">09:00 – 23:00h</a></li>
+								<li><a class="fs5 cr4" href="#">09:00 – 16:00h</a></li>
+								<li><a class="fs5 cr4" href="#">09:00 – 18:00h</a></li>
+							</ul>
+						</div><!--endcol-->
+					</div><!--endrow-->
+				</div><!--endcol-->
+			</div><!--endrow-->
+		</div><!--endcontainer-->
+	</div><!--endfooter-->
+	<div class="coppyright">
+		<div class="container  d-flex justify-content-between">
+			<p class="fs6 cr4">Copyright © 2019 – <a href="#" class="cr1">Q-Burger</a> . All rights reserved.</p>
+			<div class="totop"><i class="fa fa-angle-up fa-2x"></i></div>
+		</div>
+	</div><!--endcoppyright-->
+	<!-- menumobile -->
+	<i class="fa fa-bars"></i>
+	<div class="nav-mobile d-flex justify-content-between header">
+			<i class="fa fa-remove"></i>
+			<form class="form-mobile" action="">
+				<input type="email" name="" id="" placeholder="Search">
+				<i class="fa fa-search"></i>
+			</form><!--endform-->
+			<div class="col-lg-7 text-center">
+				<nav class="navbar navbar-expand">
+					<div class="collapse navbar-collapse" id="collapsibleNavId">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="shop.html">SHOP</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="reservation.html">RESERVATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="blog.html">BLOG</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About</a>
+							</li>
+						</ul>
+					</div>
+				</nav><!--endnavbar-->
+			</div><!--endcol--->
+			<div class="col-lg-3">
+				<div class="icon float-right">
+					<div class="iconbar">
+						<a href="#"  class="fa fa-user rounded-circle clickavt"><span> Account</span></a>
+						<div class="view">
+							<a href="#" class="fa fa-cart-plus rounded-circle"><span>My Cart</span></a>
+						</div><!--endview-->
+					</div><!--endcionbar-->
+				</div><!--endicon-->
+			</div><!--endcol--->
+		</div><!--endnav-mobile-->
+	<!-- endmenumobile -->
+	<div class="viewcart">
+		<div class="product row">
+			<i class="fa fa-remove"></i>
+			<div class="col-4 offset-2">
+				<img class="img-fluid" src="images/product_14.png" alt="">
+			</div><!--endcol-->
+			<div class="col-6">
+				<div class="nameproduct">
+					<h3 class="fs4 cr3">Chicpea burger</h3>
+					<p class="cr4 fs5">1 x $3.55</p>
+				</div><!--endnameproduct-->
+			</div><!--endcol-->
+		</div><!--endproduct-->
+		<p class="fs5 cr4 text-center subtotal"> <b>Subtotal:</b>  $3.55</p>
+		<div class="button d-block text-center">
+			<a href="order.html" class="btn btn-food">view cart</a>
+		</div><!--endbutton-->
+		<div class="button d-block text-center">
+			<a href="#" class="btn btn-food">checkout</a>
+		</div><!--endbutton-->
+	</div><!--endviewcart-->
+	<div class="bg-background"></div><!--endbg-backgound-->
+	<div class="loginmobile header">
+		<div class="login name">
+			<div class="bigform ">
+				<div class="top">
+					<h2 class="cr1 fs4 d-inline-block">Sign in</h2>
+					<span class="float-right fs5 cr4">Create an account</span>
+					<hr>
+				</div><!--endtop-->
+				<form action="">
+					<div class="form-group">
+						<label class="d-block" for="">Username or email</label>
+						<input type="email" name="" id="" placeholder="Username">
+					</div><!--endform-group-->
+					<div class="form-group  hidden">
+						<label class="d-block" for="">Phone number</label>	
+						<input type="email" name="" id="" placeholder="Phone number">
+					</div><!--endform-group-->
+					<div class="form-group">
+						<label class="d-block" for="">Password</label>
+						<input type="password" name="" id="" placeholder="Password">
+					</div><!--endform-group-->
+					<div class="form-group hidden">
+						<label class="d-block" for="">Re-Enter Password</label>
+						<input type="password" name="" id="" placeholder="Password">
+					</div><!--endform-group-->
+					<div class="button d-block text-center">
+						<a href="#" class="btn btn-food">Login</a>
+						<a href="#" class="btn btn-food">Sign up</a>
+					</div><!--endbutton-->
+					<a href="#" class="fs5 cr3 d-block">Forgot your password ?</a>
+				</form><!--endform-->
+			</div><!--endbigform-->
+		</div><!--endlogin-->
+	</div><!--endheader-->
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="index.js"></script>
+	<script src="plugin/won.min.js"></script>
+    <script>
+     new won().init();
+    </script>
+  </body>
+</html>
