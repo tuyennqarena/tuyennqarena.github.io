@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>Q-Burger</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="plugin/animate.css">
+	<script type="text/javascript" src="plugin/imagesloaded.pkgd.min.js"></script>
+  </head>
+  <body>
+	<div class="bg-header fixed-top">
+		<div class="header container">
+			<div class="row">
+				<div class="col-lg-2 ">
+					<a href="index.html"><img class="img-fluid logo" src="images/logo.png" alt=""></a>
+				</div><!--endcol--->
+				<div class="col-lg-7 text-center">
+					<nav class="navbar navbar-expand-sm navbar-light bg-light">
+						<div class="collapse navbar-collapse" id="collapsibleNavId">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">HOME</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="#">SHOP</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="reservation.html">RESERVATION</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="blog.html">BLOG</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">GALLERY</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">About</a>
+								</li>
+							</ul>
+						</div>
+					</nav><!--endnavbar-->
+				</div><!--endcol--->
+				<div class="col-lg-3 flex-row-reverse">
+					<div class="icon float-right d-flex">
+						<a href="#" class="fa fa-search rounded-circle"></a>
+						<div class="login name">
+							<a href="#"  class="fa fa-user rounded-circle clickavt"><span>Account</span></a>
+							<div class="bigform ">
+								<div class="top">
+									<h2 class="cr1 fs4 d-inline-block">Sign in</h2>
+									<span class="float-right fs5 cr4">Create an account</span>
+									<hr>
+								</div><!--endtop-->
+								<form action="">
+									<div class="form-group">
+										<label class="d-block" for="">Username or email</label>
+										<input type="email" name="" id="" placeholder="Username">
+									</div><!--endform-group-->
+									<div class="form-group  hidden">
+										<label class="d-block" for="">Phone number</label>	
+										<input type="email" name="" id="" placeholder="Phone number">
+									</div><!--endform-group-->
+									<div class="form-group">
+										<label class="d-block" for="">Password</label>
+										<input type="password" name="" id="" placeholder="Password">
+									</div><!--endform-group-->
+									<div class="form-group hidden">
+										<label class="d-block" for="">Re-Enter Password</label>
+										<input type="password" name="" id="" placeholder="Password">
+									</div><!--endform-group-->
+									<div class="button d-block text-center">
+										<a href="#" class="btn btn-food">Login</a>
+										<a href="#" class="btn btn-food">Sign up</a>
+									</div><!--endbutton-->
+									<a href="#" class="fs5 cr3 d-block">Forgot your password ?</a>
+								</form><!--endform-->
+							</div><!--endbigform-->
+						</div><!--endlogin-->
+						<div class="logout">
+								<div class="avatar d-flex ">
+									<div class="image">
+										<img src="images/avt.jpg" alt="">
+									</div><!--endimage-->
+									<p class="fs5 cr3 font-weight-bold float-right">Junny Limar</p>
+								</div><!--endavatar-->
+								<ul class="profile">
+									<li><a class="fs5 cr3 underline d-inline-block" href="#">Order</a></li>
+									<li><a href="#"  class="fs5 cr3 underline d-inline-block" href="#">Favourite</a></li>
+									<li><a class="fs5 cr3 underline d-inline-block" href="#">History</a></li>
+									<li><a class="fs5 cr3 underline d-inline-block" href="#">Address</a></li>
+									<li><a class="fs5 cr3 underline d-inline-block" href="#">Settings</a></li>
+									<li><a class="fs5 cr3 underline d-inline-block out " href="#">Logout</a></li>
+								</ul><!--endprofile-->
+							</div><!--endlogout-->
+						<div class="loginsuccess text-center">
+							<p class="fs3 cr3 _1">Login successful!</p>
+							<p class="fs3 cr3 _2">Sign up successful!</p>
+							<i class="fa fa-check-circle"></i>
+						</div><!--endloginsucccess-->
+						<div class="view">
+							<a href="#" class="fa fa-cart-plus rounded-circle"><span>My Cart</span></a>
+						</div><!--endview-->
+					</div><!--endicon-->
+				</div><!--endcol--->
+			</div><!--endrow-->
+		</div><!--endheader-->
+	</div><!--endbg-header-->
+    <div class="buynow">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title">
+                        <a class="fs2" href="#">Burger<i class="fa fa-angle-double-right"></i></a>
+                        <a class="fs3" href="#">Beef Burger</a>
+                    </div><!--endttile-->
+                </div><!--endcol-->
+                <div class="col-lg-6">
+                    <div class="row big-product">
+                        <div class="col-12">
+                           <div class="image">
+                            <img class="pr1" src="images/buynow_1.png" alt="">
+                            <img class="pr2" src="images/buynow_2.png" alt="">
+                            <img class="pr3" src="images/buynow_3.png" alt="">
+                            <img class="pr4" src="images/buynow_4.png" alt="">
+                           </div><!--endimage-->
+                        </div><!--endcol-->
+                    </div><!--endbigrow-->
+                    <div class="row smallproduct justify-content-between">
+                        <div class="col-3 pr-0">
+                            <div class="image">
+                                <img class="img-fluid _1" src="images/buynow_1.png" alt="">
+                            </div><!--endimage-->
+                        </div><!--endcol-->
+                        <div class="col-3 pr-0">
+                            <div class="image">
+                                <img class="img-fluid _2 " src="images/buynow_2.png" alt="">
+                            </div><!--endimage-->
+                        </div><!--endcol-->
+                        <div class="col-3 pr-0">
+                            <div class="image">
+                                <img class="img-fluid _3" src="images/buynow_3.png" alt="">
+                            </div><!--endimage-->
+                        </div><!--endcol-->
+                        <div class="col-3 pr-0">
+                            <div class="image">
+                                <img class="img-fluid _4" src="images/buynow_4.png" alt="">
+                            </div><!--endimage-->
+                        </div><!--endcol-->
+                    </div><!--endsmallproduct-->
+                </div><!--endcol-->
+                <div class="col-lg-6">
+                    <div class="nameproduct">
+                        <a href="#" class="fs1 cr3">Beef Burger</a>
+                        <p class="fs5 cr3">Chicken, tommato, green salad, pita, ketchup, maionese, ….</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class=""><img src="images/icons8-star-26.png" alt=""></i>
+                            <span class="fs4 cr4">(10 customer review)</span>
+                        </div><!--endrating-->
+                        <p class="fs2 cr1 font-weight-bold"><del class=" cr4">$10</del>$ 5</p>
+                        <div class="size">
+                            <h3 class="fs3 cr3 d-inline-block">Size</h3>
+                            <a href="#" class="optionsize rounded-circle">A</a>
+                            <a href="#" class="optionsize rounded-circle">B</a>
+                            <a href="#" class="optionsize rounded-circle">C</a>
+                            <a href="#" class="optionsize rounded-circle">D</a>
+                        </div><!--endsize-->
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="number">
+									<p class="cr4 fs3 fa fa-minus"></p>
+									<p class="_1 cr4 fs2">1</p>
+									<p class="_2 cr4 fs2">2</p>
+									<p class="_3 cr4 fs3">3</p>
+									<p class="cr1 fs3 fa fa-plus"></p>
+                                </div><!--endnumber-->
+                            </div><!--endcol-->
+                            <div class="col-4">
+                                <div class="button">
+									<a href="#" class="btn btn-food">Add to cart</a>
+								</div>
+                            </div><!--endcol-->
+                            <div class="col-4">
+                                <p><i class="fa fa-heart-o"></i>Add to wishlist</p>
+                            </div><!--endcol-->
+                        </div><!--endnameproduct-->
+                        <div class="category">
+                            <h2 class="fs5 cr3">SKU: <span> N/A</span></h2>
+                            <h2 class="fs5 cr3">CATEGORIES:<span> DRINKS, FAST FOOD, FRIES, MOST POPULAR, PIZZA, SALADS, SANDWICH, SPAGHETTI</span></h2>
+                            <h2 class="fs5 cr3">TAGS:<span> BURGERS, PIZZAS</span></h2>
+                        </div><!--endcategory-->
+                        <div class="footer">
+                            <p class="fs4 cr4">Share On:</p>
+                            <ul>
+                                <li><a class="fs5 cr4" href="#">Free global shipping on all orders</a></li>
+                                <li><a class="fs5 cr4" href="#">30 days easy returns if you change your mind</a></li>
+                                <li><a class="fs5 cr4" href="#">Order before noon for same day dispatch</a></li>
+                            </ul><!--endul-->
+                        </div><!--endfooter-->
+                    </div><!--endrow-->
+				</div><!--endcol-->
+            </div><!--enrow-->
+				<hr>
+        </div><!--endcontainer-->
+	</div><!--endbuynow-->
+	<div class="info">
+		<div class="title text-center mx-auto">
+			<a href="#" class="fs2 cr3 underline">Additional Information<i class="fa fa-angle-double-right"></i></a>
+			<a href="#" class="fs2 cr3 underline">Description<i class="fa fa-angle-double-right"></i></a>
+			<a href="#" class="fs2 cr3 underline">Review</a>
+		</div><!--endtitle-->
+		<div class="container description section8">
+			<div class="row ">
+				<div class="col-sm-6">
+					<div class="image">
+						<img class="img-fluid" src="images/product_11.jpg" alt="">
+					</div><!--endimage-->
+					<h2 class="fs3 cs3">No.1 Pizza</h2>
+					<p class="fs5 cr4">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam sequi quisquam blanditiis delectus culpa recusandae iusto accusantium magni minus nulla, dolores voluptatem consequatur unde placeat incidunt natus distinctio nisi?</p>
+				</div><!--endcol-->
+				<div class="col-sm-6">
+					<h2 class="fs3 cs3">Made by best Chef</h2>
+					<p class="fs5 cr4">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam sequi quisquam blanditiis delectus culpa recusandae iusto accusantium magni minus nulla, dolores voluptatem consequatur unde placeat incidunt natus distinctio nisi?</p>
+					<div class="image">
+						<img class="img-fluid" src="images/product_10.jpg" alt="">
+					</div><!--endimage-->
+				</div><!--endcol-->
+			</div><!--endrow-->
+		</div><!--enddescription-->
+		<div class="review container">
+			<div class="row">
+				<div class="col-sm-6 left">
+					<h3 class="fs4 cr3">1 review for Fried Chicken</h3>
+					<div class="row">
+						<div class="col-6">
+							<div class="avt d-flex">
+								<div class="image">
+									<img class="img-fluid" src="images/avt.jpg" alt="">
+								</div><!--endimage-->
+								<div class="name">
+									<p class="fs5 cr3">Kelly West</p>
+									<p class="fs4 cr4">January 31, 2019</p>
+								</div><!--endname-->
+							</div><!--endavt-->
+						</div><!--endcol-->
+						<div class="col-6">
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+							</div><!--endrating-->
+						</div><!--endcol-->
+						<div class="col-6">
+							<p class="fs5 cr4">I enjoyed the food of the restaurant. The 
+								dished are attractive an very beautyful.
+								Good food, luxurius space anf enthausiastic
+								service. I will be back in the... <a href="#" class="cr1">Read more</a></p>
+						</div><!--endcol-->
+					</div><!--endrow-->
+					<div class="row">
+						<div class="col-6">
+							<div class="avt d-flex">
+								<div class="image">
+									<img class="img-fluid" src="images/avt.jpg" alt="">
+								</div><!--endimage-->
+								<div class="name">
+									<p class="fs5 cr3">Kelly West</p>
+									<p class="fs4 cr4">January 31, 2019</p>
+								</div><!--endname-->
+							</div><!--endavt-->
+						</div><!--endcol-->
+						<div class="col-6">
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+							</div><!--endrating-->
+						</div><!--endcol-->
+						<div class="col-6">
+							<p class="fs5 cr4">I enjoyed the food of the restaurant. The 
+								dished are attractive an very beautyful.
+								Good food, luxurius space anf enthausiastic
+								service. I will be back in the... <a href="#" class="cr1">Read more</a></p>
+						</div><!--endcol-->
+					</div><!--endrow-->
+				</div><!--endcol-->
+				<div class="col-sm-6 col-12 right">
+					<h3 class="fs4 cr3">Customers review</h3>
+					<div class="row review_customer">
+						<div class="col-sm-3  mx-auto">
+							<div class="numberrating">4</div><!--endnumberrating-->
+							<p class="fs5 cr4">1 ratings</p>
+						</div><!--endcol-->
+						<div class="col-sm-2 col-3">
+							<p class="fs6 cr3">1 Start</p>
+							<p class="fs6 cr3">2 Start</p>
+							<p class="fs6 cr3">3 Start</p>
+							<p class="fs6 cr3">4 Start</p>
+							<p class="fs6 cr3">5 Start</p>
+						</div><!--endcol-->
+						<div class="col-sm-7 col-9">
+							<div class="progress"></div>
+							<div class="progress"></div>
+							<div class="progress"></div>
+							<div class="progress"></div>
+							<div class="progress"></div>
+						</div><!--endcol-->
+					</div><!--endrow-->
+					<div class="row review_rate">
+						<div class="col-12">
+							<h3 class="fs4 cr3">Rate it!</h3>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+							</div><!--endrating-->
+							<p class="fs6 cr3">Your Review</p>
+							<textarea name="" id="" cols="30" rows="10" placeholder="Your review"></textarea>
+							<div class="button">
+								<a href="#" class="btn btn-food">Submit</a>
+							</div><!--endbutton-->
+						</div><!--endcol-->
+					</div><!--endrow-->
+					</div><!--endreivew_rate-->
+				</div><!--endright-->
+			</div><!--endrow-->
+		</div><!--endreview-->
+		</div><!--endrow-->
+		</div><!--endreview-->
+		<div class="container similar">
+			<div class="row related text-center no-gutters ">
+				<div class="col-6 mx-auto "><h2 class="fs1 cr1 mb-4">Similar products</h2></div>
+				<div class="section5 container text-center">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="image"><img class="img-fluid" src="images/product_14.png" alt="">
+								<div class="icon">
+									<i class="fa fa-eye"></i>
+									<i class="fa fa-heart"></i>
+									<i class="fa fa-share-alt"></i>
+								</div><!--endicon-->
+							</div><!--endimage-->
+								<div class="center">
+									<div class="button">
+										<a href="#" class="btn btn-food">Add to cart</a>
+									</div><!--endbutton-->
+								</div><!--endcenter-->
+							<div class="rating">
+								<a class="fs3 cr3 underline d-inline-block">Beef Burger</a>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+								</div>
+								<p class="fs3 cr1">$2.35</p>
+							</div><!--endrating-->
+						</div><!--endcol-->
+						<div class="col-lg-3 col-sm-6">
+							<div class="image"><img class="img-fluid" src="images/buynow_3.png" alt="">
+								<div class="icon">
+									<i class="fa fa-eye"></i>
+									<i class="fa fa-heart"></i>
+									<i class="fa fa-share-alt"></i>
+								</div><!--endicon-->
+							</div><!--endimage-->
+							<div class="center">
+								<div class="button">
+									<a href="#" class="btn btn-food">Add to cart</a>
+								</div><!--endbutton-->
+							</div><!--endcenter-->
+							<div class="rating">
+								<a href="#" class="fs3 cr3 underline  d-inline-block">Chicken Burger</a>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+								</div>
+								<p class="fs3 cr1">$2.35</p>
+							</div><!--endrating-->
+						</div><!--endcol-->
+						<div class="col-lg-3 col-sm-6">
+							<div class="image"><img class="img-fluid" src="images/product_17.png" alt="">
+								<div class="icon">
+									<i class="fa fa-eye"></i>
+									<i class="fa fa-heart"></i>
+									<i class="fa fa-share-alt"></i>
+								</div><!--endicon-->
+							</div><!--endimage-->
+							<div class="center">
+								<div class="button">
+									<a href="#" class="btn btn-food">Add to cart</a>
+								</div><!--endbutton-->
+							</div><!--endcenter-->
+							<div class="rating">
+								<a href="#" class="fs3 cr3 underline  d-inline-block">Shirmp Burger</a>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+								</div>
+								<p class="fs3 cr1">$2.35</p>
+							</div><!--endrating-->
+						</div><!--endcol-->
+						<div class="col-lg-3 col-sm-6">
+							<div class="image"><img class="img-fluid" src="images/product_14.png" alt="">
+								<div class="icon">
+									<i class="fa fa-eye"></i>
+									<i class="fa fa-heart"></i>
+									<i class="fa fa-share-alt"></i>
+								</div><!--endicon-->
+							</div><!--endimage-->
+							<div class="center">
+								<div class="button">
+									<a href="#" class="btn btn-food">Add to cart</a>
+								</div><!--endbutton-->
+							</div><!--endcenter-->
+							<div class="rating">
+								<a href="#" class="fs3 cr3 underline d-inline-block">Beef Burger</a>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+								</div>
+								<p class="fs3 cr1">$2.35</p>
+							</div><!--endrating-->
+						</div><!--endcol-->
+					</div><!--endrow-->
+				</div><!--endsection-->
+			</div><!--endrelated-->
+		</div><!--endcontainer-->
+	</div><!--endinfo-->
+	<div class="viewdetail">
+		<i class="fa fa-remove"></i>
+		<div class="buynow">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="row big-product">
+							<div class="col-12">
+							   <div class="image">
+								<img class="pr1" src="images/buynow_1.png" alt="">
+							   </div><!--endimage-->
+							</div><!--endcol-->
+						</div><!--endbigrow-->
+					</div><!--endcol-->
+					<div class="col-lg-6">
+						<div class="nameproduct">
+							<a href="#" class="fs1 cr3">Beef Burger</a>
+							<p class="fs5 cr3">Chicken, tommato, green salad, pita, ketchup, maionese, ….</p>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class=""><img src="images/icons8-star-26.png" alt=""></i>
+								<span class="fs4 cr4">(10 customer review)</span>
+							</div><!--endrating-->
+							<p class="fs2 cr1 font-weight-bold"><del class=" cr4">$10</del>$ 5</p>
+							<div class="size">
+								<h3 class="fs3 cr3 d-inline-block">Size</h3>
+								<a href="#" class="optionsize rounded-circle">A</a>
+								<a href="#" class="optionsize rounded-circle">B</a>
+								<a href="#" class="optionsize rounded-circle">C</a>
+								<a href="#" class="optionsize rounded-circle">D</a>
+							</div><!--endsize-->
+							<div class="row">
+								<div class="col-4">
+									<div class="number">
+										<p class="cr4 fs3 fa fa-minus"></p>
+										<p class="_1 cr4 fs2">1</p>
+										<p class="_2 cr4 fs2">2</p>
+										<p class="_3 cr4 fs3">3</p>
+										<p class="cr1 fs3 fa fa-plus"></p>
+									</div><!--endnumber-->
+								</div><!--endcol-->
+								<div class="col-4">
+									<div class="button">
+										<a href="#" class="btn btn-food">Add to cart</a>
+									</div>
+								</div><!--endcol-->
+								<div class="col-4">
+									<p><i class="fa fa-heart-o"></i>Add to wishlist</p>
+								</div><!--endcol-->
+							</div><!--endnameproduct-->
+							<div class="category">
+								<h2 class="fs5 cr3">SKU: <span> N/A</span></h2>
+								<h2 class="fs5 cr3">CATEGORIES:<span> DRINKS, FAST FOOD, FRIES, MOST POPULAR, PIZZA, SALADS, SANDWICH, SPAGHETTI</span></h2>
+								<h2 class="fs5 cr3">TAGS:<span> PIZZAS</span></h2>
+							</div><!--endcaegory-->
+						</div><!--endrow-->
+					</div><!--endcol-->
+				</div><!--enrow-->
+			</div><!--endcontainer-->
+		</div><!--endbuynow-->
+	</div><!--endviewdetails-->
+	<div class="footer won fadeInUp mt-5" data-won-delay="0.1s">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4  col-4">
+					<h2 class="fs3 cr1">USEFUL LINKS</h2>
+					<div class="row">
+						<div class="col-sm-4">
+							<ul>
+								<li><a class="fs5 cr4" href="#">Blog</a></li>
+								<li><a class="fs5 cr4" href="#">FAQS</a></li>
+								<li><a class="fs5 cr4" href="#">About</a></li>
+								<li><a class="fs5 cr4" href="#">Contact Us</a></li>
+							</ul>
+						</div><!--endcol-->
+						<div class="col-sm-8">
+							<ul>
+								<li><a class="fs5 cr4" href="#">Wishlist</a></li>
+								<li><a class="fs5 cr4" href="#">Privacy Policy</a></li>
+								<li><a class="fs5 cr4" href="#">Order Tracking</a></li>
+								<li><a class="fs5 cr4" href="#">Sevices</a></li>
+							</ul>
+						</div><!--endcol-->
+					</div><!--endrow-->
+				</div><!--endcol-->
+				<div class="col-lg-4  col-4 text-center">
+					<div class="text">
+						<h2 class="fs3 cr1">contact</h2>
+						<p class="fs5 cr4">264 Doi Can Str, Ba Dinh Dist, <br> Lieu Giai Ward, Hanoi</p>
+						<p class="fs5 cr4">Hotline: 1900 – 123 456 78</p>
+						<p class="fs5 cr4">Email: ndd@example.com</p>
+					</div><!--endtext-->
+					<div class="icon d-flex justify-content-center">
+						<a href="#" class="block-icon rounded-circle text-center fb">
+							<i class="fa fa-facebook d-block"></i>
+							<i class="fa fa-facebook  cr1"></i>
+						</a>
+						<a href="#" class="block-icon rounded-circle text-center it">
+							<i class="fa fa-instagram d-block "></i>
+							<i class="fa fa-instagram cr1"></i>
+						</a>
+						<a href="#" class="block-icon rounded-circle text-center gg ">
+							<i class="fa fa-google-plus d-block "></i>
+							<i class="fa fa-google-plus  cr1"></i>
+						</a>
+						<a href="#" class="block-icon rounded-circle tt">
+							<i class="fa fa-twitter d-block "></i>
+							<i class="fa fa-twitter  cr1"></i>
+						</a>
+					</div><!--endicon-->
+				</div><!--endcol-->
+				<div class="col-lg-4 col-4 ">
+					<h2 class="fs3 cr1">OPENING HOUR</h2>
+					<div class="row bd-left">
+						<div class="col-sm-7 col-2">
+							<ul>
+								<li><a class="fs5 cr4" href="#">Friday:</a></li>
+								<li><a class="fs5 cr4" href="#">Saturday:</a></li>
+								<li><a class="fs5 cr4" href="#">Sunday:</a></li>
+							</ul>
+						</div><!--endcol-->
+						<div class="col-sm-5 col-9">
+							<ul>
+								<li><a class="fs5 cr4" href="#">09:00 – 23:00h</a></li>
+								<li><a class="fs5 cr4" href="#">09:00 – 16:00h</a></li>
+								<li><a class="fs5 cr4" href="#">09:00 – 18:00h</a></li>
+							</ul>
+						</div><!--endcol-->
+					</div><!--endrow-->
+				</div><!--endcol-->
+			</div><!--endrow-->
+		</div><!--endcontainer-->
+	</div><!--endfooter-->
+	<div class="coppyright">
+		<div class="container  d-flex justify-content-between">
+			<p class="fs6 cr4">Copyright © 2019 – <a href="index.html" class="cr1">Q-Burger</a> . All rights reserved.</p>
+			<div class="totop"><i class="fa fa-angle-up fa-2x"></i></div>
+		</div>
+	</div><!--endcoppyright-->
+	<!-- menumobile -->
+	<i class="fa fa-bars"></i>
+	<div class="nav-mobile d-flex justify-content-between header">
+			<i class="fa fa-remove"></i>
+			<form class="form-mobile" action="">
+				<input type="email" name="" id="" placeholder="Search">
+				<i class="fa fa-search"></i>
+			</form><!--endform-->
+			<div class="col-lg-7 text-center">
+				<nav class="navbar navbar-expand">
+					<div class="collapse navbar-collapse" id="collapsibleNavId">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">SHOP</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="reservation.html">RESERVATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="blog.html">BLOG</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About</a>
+							</li>
+						</ul>
+					</div>
+				</nav><!--endnavbar-->
+			</div><!--endcol--->
+			<div class="col-lg-3">
+				<div class="icon float-right">
+					<a href="#" class="fa fa-search rounded-circle"></a>
+					<a href="#"  class="fa fa-user rounded-circle"><span>Account</span></a>
+					<div class="view">
+						<a href="#" class="fa fa-cart-plus rounded-circle"><span>My Cart</span></a>
+					</div><!--endview-->
+				</div><!--endicon-->
+			</div><!--endcol--->
+		</div><!--endnav-mobile-->
+	<!-- endmenumobile -->
+	<div class="bg-background"></div><!--endbg-backgound-->
+    <div class="bg-background"></div><!--endbg-backgound-->
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="index.js"></script>
+	<script src="plugin/won.min.js"></script>
+    <script>
+     new won().init();
+    </script>
+  </body>
+</html>
