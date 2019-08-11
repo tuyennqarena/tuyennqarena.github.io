@@ -424,8 +424,6 @@ ul.profile {
 /* end css for navbar */
 /* css for banner */
 #sliderbanner{
-  height: 100%;
-  overflow: hidden;
   position: relative;
 }
 #sliderbanner .carousel-item{
@@ -2884,7 +2882,6 @@ nav.navbar.navbar-expand.navbar-light.bg-light {
 }
 
 #sliderbanner {
-    height: 48%;
     margin-top: 120px;
 }
 
@@ -3289,7 +3286,6 @@ h2.cr1.fs1.text-center.mx-food {
 }
 
 #sliderbanner {
-    height: 48%;
     margin-top: 85px;
 } 
 .fa-bars{
