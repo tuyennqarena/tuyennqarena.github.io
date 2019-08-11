@@ -470,10 +470,7 @@ ul.profile {
     opacity: 1 !important;
     width: 36px;
 }
-#sliderbanner .img{
-  min-width: 100%;
-  min-height: 100%;
-}
+
 /* end css for banner */
 
 /* css for section1 */
@@ -2885,10 +2882,6 @@ nav.navbar.navbar-expand.navbar-light.bg-light {
     margin-top: 120px;
 }
 
-#sliderbanner img {
-    max-width: 131% !important;
-}
-
 /* end css for header mobile */
  /* css for view */
 .viewdetail .size {
@@ -3279,10 +3272,6 @@ h2.cr1.fs1.text-center.mx-food {
 .cart.viewdetail.buynow .detailproduct .col-lg-8,.cart.viewdetail.buynow .detailproduct .col-lg-4 {
     max-width: 100%;
     flex: 100%;
-}
-
-#sliderbanner img {
-    max-width: 215% !important;
 }
 
 #sliderbanner {
