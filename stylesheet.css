@@ -2675,10 +2675,6 @@ form select.form-control {
  /* css for ipad */
  @media (max-width: 992px){
 /* css for header mobile */
-
-body,html{
-  overflow-x: hidden;
-}
 .nav-mobile.d-flex{
   display: block !important;
   padding: 0px !important;
